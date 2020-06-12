@@ -127,7 +127,7 @@ text-align: center;
 
 @media(min-width: 1000px) {
   .areas .grid{
-  grid-template-columns: repeat(5,260px);
+  grid-template-columns: repeat(4,260px);
   justify-content: center;
   }
 }
