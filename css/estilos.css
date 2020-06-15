@@ -88,8 +88,8 @@ header {
   font-family: 'Source Code Pro', monospace;
   font-style: italic;
   font-weight: lighter;
-  text-align: center;
-  font-size: 1em;
+  text-align: center; 
+  font-size: 1.5em;
 }
 
 .img-portfolio {
@@ -102,17 +102,29 @@ header {
 .img-portfolio:hover,
 .img-portfolio:active{
   transform:scale(1.2)
-
 }
 
-.areas{
+.areas,
+.contato,
+.sobre{
 padding:2em;
 }
 
-.areas h2{
+.areas h2,
+.contato h2,
+.sobre h2{
 margin-bottom: 1.5em;
 font-size: 2em;
 text-align: center;
+}
+
+.sobre p{
+text-indent: 2em;
+text-align: justify;
+font-size: 1.5em;
+margin-bottom: 1em;
+margin-top: 1em ;
+
 }
 
 .areas .grid{
@@ -147,11 +159,6 @@ text-align: center;
   }
 }
 
-.contato h2{
-  text-align: center;
-  padding: 1em;
-}
-
 .contato .grid{
   display:grid;
   justify-content:center;
@@ -177,14 +184,14 @@ text-align: center;
 }
 .icons {
   padding: 1em;
-  opacity: 0.4;
+  opacity: 0.6;
   transition: transform 400ms;
 }
 
 .icons:hover,
 .icons:active{
-  opacity: 1.0;
-  transform: scale(1.2);
+  opacity: 1;
+  transform: scale(1.4);
 }
 
 .credits{
